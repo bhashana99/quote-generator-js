@@ -110,3 +110,14 @@ body{
     background: transparent;
     color: #333 ;
 }
+footer {
+    position: relative;
+  }
+
+  footer p{
+    position:absolute;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+    left: 18%;
+  }

@@ -16,7 +16,11 @@
             <button type="button" onclick="getQuote(api_url);">New Quote</button>
             <button type="button" onclick="tweet()"><img src="./images/x.png" alt="">Tweet</button>
         </div>
+        <footer>
+            <p>Copyright &#169; 2023 Sep  Bhashana Chamodya. All Right Reserved. </p>
+        </footer> 
     </div>
+    
     
     <script>
         const quote = document.getElementById("quote"); 
@@ -35,10 +39,12 @@
         getQuote(api_url);
 
         function tweet(){
+            //twitter share link
             window.open(`https://twitter.com/intent/tweet?text=` + quote.innerHTML  + " ---- by" + author.innerHTML, "Tweet Window", "width=600, height=300" );
 
         }
 
     </script>
+
 </body>
 </html>
